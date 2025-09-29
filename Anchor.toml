@@ -5,6 +5,9 @@ package_manager = "yarn"
 resolution = true
 skip-lint = false
 
+[programs.localnet]
+my_program = "47EwzEbrAx2nE7PekrV4Jf8B7Ro3qodVEFc4H6AZ2TmZ"
+
 [programs.devnet]
 my_program = "47EwzEbrAx2nE7PekrV4Jf8B7Ro3qodVEFc4H6AZ2TmZ"
 
@@ -12,7 +15,7 @@ my_program = "47EwzEbrAx2nE7PekrV4Jf8B7Ro3qodVEFc4H6AZ2TmZ"
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "devnet"
+cluster = "localnet"
 wallet = "/root/.config/solana/id.json"
 
 [scripts]
