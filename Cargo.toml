@@ -10,8 +10,8 @@ opt-level = "z"
 lto = "thin"
 codegen-units = 1
 panic = "abort"
-overflow-checks = false
-incremental = false
+overflow-checks = true
+incremental = true
 
 [profile.release.build-override]
 opt-level = 3
