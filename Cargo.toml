@@ -15,5 +15,5 @@ incremental = true
 
 [profile.release.build-override]
 opt-level = 3
-incremental = false
+incremental = true
 codegen-units = 1
