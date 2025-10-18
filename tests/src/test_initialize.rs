@@ -19,8 +19,8 @@ fn test_initialize() {
 
     let tx = program
         .request()
-        .accounts(my_program333::accounts::Initialize {})
-        .args(my_program333::instruction::Initialize {})
+        .accounts(my_program::accounts::Initialize {})
+        .args(my_program::instruction::Initialize {})
         .send()
         .expect("");
 
