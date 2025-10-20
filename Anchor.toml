@@ -20,3 +20,8 @@ wallet = "/root/.config/solana/id.json"
 
 [scripts]
 test = "cargo test"
+
+[test.validator]
+gossip_port = 8001
+rpc_port = 8899
+faucet_port = 9900
